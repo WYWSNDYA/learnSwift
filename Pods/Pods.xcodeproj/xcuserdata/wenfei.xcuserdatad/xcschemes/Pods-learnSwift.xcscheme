@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70F12FEF1F05313600EF4137"
-               BuildableName = "learnSwift.app"
-               BlueprintName = "learnSwift"
-               ReferencedContainer = "container:learnSwift.xcodeproj">
+               BlueprintIdentifier = "741AC5DE236788DA7ECE6FB06FA65838"
+               BuildableName = "Pods_learnSwift.framework"
+               BlueprintName = "Pods-learnSwift"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F12FEF1F05313600EF4137"
-            BuildableName = "learnSwift.app"
-            BlueprintName = "learnSwift"
-            ReferencedContainer = "container:learnSwift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F12FEF1F05313600EF4137"
-            BuildableName = "learnSwift.app"
-            BlueprintName = "learnSwift"
-            ReferencedContainer = "container:learnSwift.xcodeproj">
+            BlueprintIdentifier = "741AC5DE236788DA7ECE6FB06FA65838"
+            BuildableName = "Pods_learnSwift.framework"
+            BlueprintName = "Pods-learnSwift"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F12FEF1F05313600EF4137"
-            BuildableName = "learnSwift.app"
-            BlueprintName = "learnSwift"
-            ReferencedContainer = "container:learnSwift.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
