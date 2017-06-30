@@ -14,6 +14,12 @@ class ViewController:UIViewController
     var item : NSArray?
     var lable : UILabel?
     var showButton : UIButton?//在这里通过？来声明可选类型的button类别showButton值的类型去展示这个类型的值
+    
+
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("swift")
@@ -66,6 +72,21 @@ class ViewController:UIViewController
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+     lazy var button : UIView = {
+        
+        
+        let boxed = UIView()
+        
+        boxed .backgroundColor = UIColor.red
+        
+        return boxed
+        
+    }()//只使用lazy才可以完成懒加载的需求 若没有懒加载则不可以满足这个条件 还有一条就是private并没有啥卵用就是这样的操作去满足我们的需求
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
