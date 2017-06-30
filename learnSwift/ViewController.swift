@@ -10,27 +10,26 @@ import UIKit
 import SnapKit
 class ViewController:UIViewController
 {
-
-    
     var tableView  : UITableView?
     var item : NSArray?
     var lable : UILabel?
-    
-    
+    var showButton : UIButton?//在这里通过？来声明可选类型的button类别showButton值的类型去展示这个类型的值
     override func viewDidLoad() {
         super.viewDidLoad()
         print("swift")
         
+        var newDog = Dog()
+        newDog.firstName="222"
+        newDog.lastName = "3333"
+        print(newDog.input())
         
-//        
-//        self.item=["1", "2", "3", "4", "5"]
-//        self.tableView = UITableView(frame:self.view.frame,style:UITableViewStyle.plain)
-//        self.tableView!.delegate=self;
-//        self.tableView!.dataSource=self;
-//        self.tableView!.register(UITableViewCell.self, forCellReuseIdentifier:"cell")
-//        self.view .addSubview(self.tableView!)
-//        
+        print(newDog.add())
         
+        var newCat = twoCat()
+        newCat.age = "11"
+        newCat.name = "11"
+        newCat.length = "11"
+        newCat.count()
         
         let box = UIView()
         box.backgroundColor=UIColor.yellow

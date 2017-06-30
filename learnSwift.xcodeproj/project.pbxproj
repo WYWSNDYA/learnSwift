@@ -13,6 +13,9 @@
 		70F12FFB1F05313600EF4137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F12FFA1F05313600EF4137 /* Assets.xcassets */; };
 		70F12FFE1F05313600EF4137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F12FFC1F05313600EF4137 /* LaunchScreen.storyboard */; };
 		70F130061F05441200EF4137 /* twoNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F130051F05441200EF4137 /* twoNameViewController.swift */; };
+		70F1D4521F06132000FE4C2F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4511F06132000FE4C2F /* Dog.swift */; };
+		70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4551F06195800FE4C2F /* twoCat.swift */; };
+		70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4571F061AA200FE4C2F /* bigViewController.swift */; };
 		F434EDDCAB990DD2986CAFB9 /* Pods_learnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5375014C977D35888E1616 /* Pods_learnSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		70F12FFD1F05313600EF4137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70F12FFF1F05313600EF4137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70F130051F05441200EF4137 /* twoNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = twoNameViewController.swift; path = ../twoNameViewController.swift; sourceTree = "<group>"; };
+		70F1D4511F06132000FE4C2F /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		70F1D4551F06195800FE4C2F /* twoCat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoCat.swift; sourceTree = "<group>"; };
+		70F1D4571F061AA200FE4C2F /* bigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigViewController.swift; sourceTree = "<group>"; };
 		93BD40AAAD56ED1F7F5D64AC /* Pods-learnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F1633C4AA66D2D6DDEEF5538 /* Pods-learnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +76,9 @@
 				70F12FFA1F05313600EF4137 /* Assets.xcassets */,
 				70F12FFC1F05313600EF4137 /* LaunchScreen.storyboard */,
 				70F12FFF1F05313600EF4137 /* Info.plist */,
+				70F1D4511F06132000FE4C2F /* Dog.swift */,
+				70F1D4551F06195800FE4C2F /* twoCat.swift */,
+				70F1D4571F061AA200FE4C2F /* bigViewController.swift */,
 			);
 			path = learnSwift;
 			sourceTree = "<group>";
@@ -216,6 +225,9 @@
 			files = (
 				70F130061F05441200EF4137 /* twoNameViewController.swift in Sources */,
 				70F12FF61F05313600EF4137 /* ViewController.swift in Sources */,
+				70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */,
+				70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */,
+				70F1D4521F06132000FE4C2F /* Dog.swift in Sources */,
 				70F12FF41F05313600EF4137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
