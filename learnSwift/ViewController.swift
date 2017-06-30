@@ -18,6 +18,8 @@ class ViewController:UIViewController
         super.viewDidLoad()
         print("swift")
         
+        Thread.sleep(forTimeInterval: 2.5)
+        
         var newDog = Dog()
         newDog.firstName="222"
         newDog.lastName = "3333"

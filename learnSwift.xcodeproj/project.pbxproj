@@ -16,6 +16,7 @@
 		70F1D4521F06132000FE4C2F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4511F06132000FE4C2F /* Dog.swift */; };
 		70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4551F06195800FE4C2F /* twoCat.swift */; };
 		70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4571F061AA200FE4C2F /* bigViewController.swift */; };
+		70F1D45E1F068DCA00FE4C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F1D45D1F068DCA00FE4C2F /* Images.xcassets */; };
 		F434EDDCAB990DD2986CAFB9 /* Pods_learnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5375014C977D35888E1616 /* Pods_learnSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		70F1D4511F06132000FE4C2F /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		70F1D4551F06195800FE4C2F /* twoCat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoCat.swift; sourceTree = "<group>"; };
 		70F1D4571F061AA200FE4C2F /* bigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigViewController.swift; sourceTree = "<group>"; };
+		70F1D45D1F068DCA00FE4C2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93BD40AAAD56ED1F7F5D64AC /* Pods-learnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F1633C4AA66D2D6DDEEF5538 /* Pods-learnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				70F1D4511F06132000FE4C2F /* Dog.swift */,
 				70F1D4551F06195800FE4C2F /* twoCat.swift */,
 				70F1D4571F061AA200FE4C2F /* bigViewController.swift */,
+				70F1D45D1F068DCA00FE4C2F /* Images.xcassets */,
 			);
 			path = learnSwift;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F12FFE1F05313600EF4137 /* LaunchScreen.storyboard in Resources */,
+				70F1D45E1F068DCA00FE4C2F /* Images.xcassets in Resources */,
 				70F12FFB1F05313600EF4137 /* Assets.xcassets in Resources */,
 				70F12FF91F05313600EF4137 /* Main.storyboard in Resources */,
 			);
@@ -354,6 +358,7 @@
 			baseConfigurationReference = F1633C4AA66D2D6DDEEF5538 /* Pods-learnSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSNAPKIT_DEPLOYMENT_LEGACY";
@@ -368,6 +373,7 @@
 			baseConfigurationReference = 93BD40AAAD56ED1F7F5D64AC /* Pods-learnSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = learnSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSNAPKIT_DEPLOYMENT_LEGACY";
