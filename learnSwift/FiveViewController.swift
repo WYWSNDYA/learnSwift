@@ -9,9 +9,25 @@
 import UIKit
 
 class FiveViewController: UIViewController {
-
+    
+    var  showLable : UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "showTime"
+        
+        self.showLable = UILabel.init()
+        
+        self.view.addSubview(self.showLable)
+        
+        self.showLable.text = "展示数据的类型"
+        
+        self.showLable.frame = CGRect(x:0,y:0,width:100,height:100)
+        
+        
+        self.showLable.backgroundColor = UIColor .red
+        
 
         // Do any additional setup after loading the view.
     }
