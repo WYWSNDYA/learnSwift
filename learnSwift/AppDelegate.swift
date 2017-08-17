@@ -15,6 +15,65 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+    self.window = UIWindow(frame:UIScreen.main.bounds)
+        
+    self.window?.backgroundColor = UIColor.white
+        
+    let tabbarController = UITabBarController.init()
+        
+    self.window?.rootViewController = tabbarController//设置tabbar的根视图
+        
+        
+    let firstPage = twoNameViewController()
+        
+    let hc = UINavigationController.init(rootViewController: firstPage)
+        
+    hc.tabBarItem.title = "first"
+        
+    tabbarController.addChildViewController(hc)
+        
+        
+        let EfirstPage = ThreeViewViewController()
+        
+        let pc = UINavigationController.init(rootViewController: EfirstPage)
+        
+        
+       // pc.tabBarItem.selectedImage = UIImage(named: "wreck")?.withRenderingMode(UIImageRenderingMode.automatic)
+        
+        //pc.tabBarItem.image = UIImage(named:"wreck1")?.withRenderingMode(UIImageRenderingMode.automatic)//图片的渲染模式
+        
+       
+
+     
+        pc.tabBarItem =  UITabBarItem(title: "", image: UIImage(named:"个人中心-1"),
+                                      selectedImage: UIImage(named: "个人中心-2")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal))
+        
+        
+        pc.tabBarItem.imageInsets = UIEdgeInsetsMake(8,0,-8,0)//设置图片和文字的偏移量
+        
+        pc.tabBarItem.setTitleTextAttributes([NSFontAttributeName:UIFont.systemFont(ofSize:18)], for: UIControlState.normal)
+    
+        tabbarController.addChildViewController(pc)
+        
+
+        let REfirstPage = FourViewController()
+        
+        let Kc = UINavigationController.init(rootViewController: REfirstPage)
+        
+        Kc.tabBarItem.title = "dfirst"
+        
+        tabbarController.addChildViewController(Kc)
+        
+        
+        let GREfirstPage = FourViewController()
+        
+        let fc = UINavigationController.init(rootViewController: GREfirstPage)
+        
+        fc.tabBarItem.title = "dfirst"
+        
+        tabbarController.addChildViewController(fc)
+        
         // Override point for customization after application launch.
         return true
     }

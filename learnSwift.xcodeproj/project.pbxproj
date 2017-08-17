@@ -17,6 +17,14 @@
 		70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4551F06195800FE4C2F /* twoCat.swift */; };
 		70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1D4571F061AA200FE4C2F /* bigViewController.swift */; };
 		70F1D45E1F068DCA00FE4C2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F1D45D1F068DCA00FE4C2F /* Images.xcassets */; };
+		70FE84FE1F4298B0000B0DC8 /* ThreeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE84FD1F4298B0000B0DC8 /* ThreeViewViewController.swift */; };
+		70FE85001F4298C0000B0DC8 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE84FF1F4298C0000B0DC8 /* FourViewController.swift */; };
+		70FE85021F4298D3000B0DC8 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE85011F4298D3000B0DC8 /* FiveViewController.swift */; };
+		70FE85041F429C75000B0DC8 /* 个人中心-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FE85031F429C75000B0DC8 /* 个人中心-1.png */; };
+		70FE85061F429C80000B0DC8 /* 个人中心-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FE85051F429C80000B0DC8 /* 个人中心-2.png */; };
+		70FE85081F42BC16000B0DC8 /* againShowTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE85071F42BC16000B0DC8 /* againShowTimeViewController.swift */; };
+		70FE850A1F42C101000B0DC8 /* wreck.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FE85091F42C101000B0DC8 /* wreck.png */; };
+		70FE850C1F42C109000B0DC8 /* wreck1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FE850B1F42C109000B0DC8 /* wreck1.png */; };
 		F434EDDCAB990DD2986CAFB9 /* Pods_learnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5375014C977D35888E1616 /* Pods_learnSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +42,14 @@
 		70F1D4551F06195800FE4C2F /* twoCat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoCat.swift; sourceTree = "<group>"; };
 		70F1D4571F061AA200FE4C2F /* bigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigViewController.swift; sourceTree = "<group>"; };
 		70F1D45D1F068DCA00FE4C2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70FE84FD1F4298B0000B0DC8 /* ThreeViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewViewController.swift; sourceTree = "<group>"; };
+		70FE84FF1F4298C0000B0DC8 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		70FE85011F4298D3000B0DC8 /* FiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		70FE85031F429C75000B0DC8 /* 个人中心-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-1.png"; sourceTree = "<group>"; };
+		70FE85051F429C80000B0DC8 /* 个人中心-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-2.png"; sourceTree = "<group>"; };
+		70FE85071F42BC16000B0DC8 /* againShowTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = againShowTimeViewController.swift; sourceTree = "<group>"; };
+		70FE85091F42C101000B0DC8 /* wreck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wreck.png; sourceTree = "<group>"; };
+		70FE850B1F42C109000B0DC8 /* wreck1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wreck1.png; sourceTree = "<group>"; };
 		93BD40AAAD56ED1F7F5D64AC /* Pods-learnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F1633C4AA66D2D6DDEEF5538 /* Pods-learnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learnSwift/Pods-learnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +87,16 @@
 		70F12FF21F05313600EF4137 /* learnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				70FE85091F42C101000B0DC8 /* wreck.png */,
+				70FE850B1F42C109000B0DC8 /* wreck1.png */,
+				70FE85031F429C75000B0DC8 /* 个人中心-1.png */,
+				70FE85051F429C80000B0DC8 /* 个人中心-2.png */,
 				70F12FF31F05313600EF4137 /* AppDelegate.swift */,
+				70FE85071F42BC16000B0DC8 /* againShowTimeViewController.swift */,
 				70F130051F05441200EF4137 /* twoNameViewController.swift */,
+				70FE84FD1F4298B0000B0DC8 /* ThreeViewViewController.swift */,
+				70FE84FF1F4298C0000B0DC8 /* FourViewController.swift */,
+				70FE85011F4298D3000B0DC8 /* FiveViewController.swift */,
 				70F12FF51F05313600EF4137 /* ViewController.swift */,
 				70F12FF71F05313600EF4137 /* Main.storyboard */,
 				70F12FFA1F05313600EF4137 /* Assets.xcassets */,
@@ -166,6 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F12FFE1F05313600EF4137 /* LaunchScreen.storyboard in Resources */,
+				70FE85041F429C75000B0DC8 /* 个人中心-1.png in Resources */,
+				70FE850C1F42C109000B0DC8 /* wreck1.png in Resources */,
+				70FE850A1F42C101000B0DC8 /* wreck.png in Resources */,
+				70FE85061F429C80000B0DC8 /* 个人中心-2.png in Resources */,
 				70F1D45E1F068DCA00FE4C2F /* Images.xcassets in Resources */,
 				70F12FFB1F05313600EF4137 /* Assets.xcassets in Resources */,
 				70F12FF91F05313600EF4137 /* Main.storyboard in Resources */,
@@ -228,10 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F130061F05441200EF4137 /* twoNameViewController.swift in Sources */,
+				70FE84FE1F4298B0000B0DC8 /* ThreeViewViewController.swift in Sources */,
 				70F12FF61F05313600EF4137 /* ViewController.swift in Sources */,
+				70FE85081F42BC16000B0DC8 /* againShowTimeViewController.swift in Sources */,
 				70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */,
 				70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */,
 				70F1D4521F06132000FE4C2F /* Dog.swift in Sources */,
+				70FE85001F4298C0000B0DC8 /* FourViewController.swift in Sources */,
+				70FE85021F4298D3000B0DC8 /* FiveViewController.swift in Sources */,
 				70F12FF41F05313600EF4137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
