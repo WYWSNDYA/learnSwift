@@ -14,6 +14,8 @@ class FiveViewController: UIViewController {
     
     var  titleShow : againShow!
     
+    var  nextButton : UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +23,13 @@ class FiveViewController: UIViewController {
         self.titleShow.frame = CGRect(x:0,y:0,width:500,height:500)
         self.view.addSubview(self.titleShow)
         
+        self.nextButton = UIButton.init(type:.contactAdd)
+        self.nextButton.frame = CGRect(x:10,y:20,width:30,height:40)
+        self.view.didAddSubview(self.nextButton)
+        self.nextButton.backgroundColor = UIColor.black
+        self.nextButton.setTitle("2222", for: .normal)
         // Do any additional setup after loading the view.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
