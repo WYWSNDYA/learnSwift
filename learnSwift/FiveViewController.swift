@@ -28,6 +28,8 @@ class FiveViewController: UIViewController {
         self.view.didAddSubview(self.nextButton)
         self.nextButton.backgroundColor = UIColor.black
         self.nextButton.setTitle("2222", for: .normal)
+        self.nextButton .setTitle("goodThing", for: .normal)
+        print("这个简单的测试流程")
         // Do any additional setup after loading the view.
     }
     override func didReceiveMemoryWarning() {
