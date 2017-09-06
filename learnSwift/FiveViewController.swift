@@ -12,23 +12,15 @@ class FiveViewController: UIViewController {
     
     var  showLable : UILabel!
     
+    var  titleShow : againShow!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "showTime"
+        self.titleShow = againShow()
+        self.titleShow.frame = CGRect(x:0,y:0,width:500,height:500)
+        self.view.addSubview(self.titleShow)
         
-        self.showLable = UILabel.init()
-        
-        self.view.addSubview(self.showLable)
-        
-        self.showLable.text = "展示数据的类型"
-        
-        self.showLable.frame = CGRect(x:0,y:0,width:100,height:100)
-        
-        
-        self.showLable.backgroundColor = UIColor .red
-        
-
         // Do any additional setup after loading the view.
     }
 

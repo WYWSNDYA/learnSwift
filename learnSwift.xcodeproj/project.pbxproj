@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		703B387D1F46D649007C9DB6 /* showThreeAgainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703B387C1F46D649007C9DB6 /* showThreeAgainViewController.swift */; };
+		70EF3C3E1F4C0EBE0072D583 /* againShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF3C3D1F4C0EBE0072D583 /* againShow.swift */; };
 		70F12FF41F05313600EF4137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F12FF31F05313600EF4137 /* AppDelegate.swift */; };
 		70F12FF61F05313600EF4137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F12FF51F05313600EF4137 /* ViewController.swift */; };
 		70F12FF91F05313600EF4137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F12FF71F05313600EF4137 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		2E5375014C977D35888E1616 /* Pods_learnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		703B387C1F46D649007C9DB6 /* showThreeAgainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showThreeAgainViewController.swift; sourceTree = "<group>"; };
+		70EF3C3D1F4C0EBE0072D583 /* againShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = againShow.swift; sourceTree = "<group>"; };
 		70F12FF01F05313600EF4137 /* learnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F12FF31F05313600EF4137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F12FF51F05313600EF4137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				70FE85071F42BC16000B0DC8 /* againShowTimeViewController.swift */,
 				70F130051F05441200EF4137 /* twoNameViewController.swift */,
 				70FE84FD1F4298B0000B0DC8 /* ThreeViewViewController.swift */,
+				703B387C1F46D649007C9DB6 /* showThreeAgainViewController.swift */,
 				70FE84FF1F4298C0000B0DC8 /* FourViewController.swift */,
 				70FE85011F4298D3000B0DC8 /* FiveViewController.swift */,
 				70F12FF51F05313600EF4137 /* ViewController.swift */,
@@ -102,6 +107,7 @@
 				70F12FFA1F05313600EF4137 /* Assets.xcassets */,
 				70F12FFC1F05313600EF4137 /* LaunchScreen.storyboard */,
 				70F12FFF1F05313600EF4137 /* Info.plist */,
+				70EF3C3D1F4C0EBE0072D583 /* againShow.swift */,
 				70F1D4511F06132000FE4C2F /* Dog.swift */,
 				70F1D4551F06195800FE4C2F /* twoCat.swift */,
 				70F1D4571F061AA200FE4C2F /* bigViewController.swift */,
@@ -258,12 +264,14 @@
 				70F130061F05441200EF4137 /* twoNameViewController.swift in Sources */,
 				70FE84FE1F4298B0000B0DC8 /* ThreeViewViewController.swift in Sources */,
 				70F12FF61F05313600EF4137 /* ViewController.swift in Sources */,
+				70EF3C3E1F4C0EBE0072D583 /* againShow.swift in Sources */,
 				70FE85081F42BC16000B0DC8 /* againShowTimeViewController.swift in Sources */,
 				70F1D4561F06195800FE4C2F /* twoCat.swift in Sources */,
 				70F1D4581F061AA200FE4C2F /* bigViewController.swift in Sources */,
 				70F1D4521F06132000FE4C2F /* Dog.swift in Sources */,
 				70FE85001F4298C0000B0DC8 /* FourViewController.swift in Sources */,
 				70FE85021F4298D3000B0DC8 /* FiveViewController.swift in Sources */,
+				703B387D1F46D649007C9DB6 /* showThreeAgainViewController.swift in Sources */,
 				70F12FF41F05313600EF4137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

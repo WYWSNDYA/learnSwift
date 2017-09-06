@@ -10,21 +10,73 @@ import UIKit
 
 class againShowTimeViewController: UIViewController {
   
-    var showImage : UIImageView?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.red
-        self.title="分类展示"
-        self.showImage = UIImageView.init()
-        self.view.addSubview(self.showImage!)
-        self.showImage?.frame = CGRect(x:0,y:0,width:self.view.bounds.size.width,height:self.view.bounds.size.height)
-        self.showImage?.image = UIImage(named:"wreck1")
-        self.showImage?.contentMode = UIViewContentMode.scaleAspectFit
-        self.tabBarController?.tabBar.isHidden = true
+        self.view.backgroundColor = UIColor.white
+        class AppManager {
+        static let sharedInstance = AppManager()
+        private init() {}
+        }
+        let a =  AppManager.sharedInstance//声明这种单例的模型
         
-        // Do any additional setup after loading the view.
-    }
+        class Account {
+            
+            var amount  : Double = 0.0
+            var  owner  : String = ""
+            class var staticProp : Double {
+                
+                return 0.6666
+                
+            }
+            
+            class People
+            {
+                
+                
+                var firstName : String = ""
+                var lastName  : String = ""
+                var nickName  : String = ""
+                
+                var fullName :String{
+                    
+                    get{
+                        
+                        
+                        return nickName + "" + ""+lastName
+                        
+                    }
+                    
+                
+                }
+                
+                var age : Int = 0
+                {
+                    willSet {
+                        
+                        
+                        print("222222222")
+                        
+                        
+                    }
+                    didSet{
+                        
+                        
+                        
+                        print("333333333333")//
+                }
+                    
+                }
+                
+            
+            }
+        class  func interBy(amount : Double) -> Double {
+                
+                return 0.888 * amount
+        }
+        }
+        print(Account.interBy(amount: 11111))
+        // Do any additional setup after loading the vie
+       }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

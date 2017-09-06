@@ -14,10 +14,12 @@ class twoNameViewController: UIViewController {
     
     var letSanp : UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-  let button:UIButton = UIButton(type:UIButtonType.contactAdd)
+        
+        let myThread = Thread(target:self,selector: #selector(twoNameViewController.downData),object: nil)
+        myThread .start()
+        let button:UIButton = UIButton(type:UIButtonType.contactAdd)
         //设置按钮位置和大小
         button.frame = CGRect(x:10, y:250, width:100, height:30)
         //设置按钮文字
@@ -29,39 +31,60 @@ class twoNameViewController: UIViewController {
         button.backgroundColor = UIColor.red
         self.navigationItem.title = "show"
     }
+
+    func downData()->Void {
+        
+        print("我正走学习swift")
+    }
+    class Person {
+        
+        let name : String
+        init(name: String) {
+            
+            self.name = name
+        }
+        deinit {
+            
+            print("被解析")//被析构函数
+        }
+        
+    }
     
+    class showName {
+        
+        var name : NSString = "wwwww"
+        var slow : NSString = "yyyyy"
+        
+        static let shareInstance = showName()
+        
+        private init(){
+        
+        }
+       deinit {
+            
+             print("这是一个效果的展示")
+        }
+        
+    }
     func trapp()->Void {//函数名 参数 返回值
         
-        let showAgainView = againShowTimeViewController()
-        self.navigationController!.pushViewController(showAgainView, animated:true)
+     let showAgainView = againShowTimeViewController()
+     self.navigationController!.pushViewController(showAgainView, animated:true)
         
     }
     override func viewWillAppear(_ animated: Bool) {
         
-     
-        self.navigationController?.navigationBar.isHidden = true
+       self.navigationController?.navigationBar.isHidden = true
         
         self.tabBarController?.tabBar.isHidden = false//隐藏
-        
-        
-
     }
-    
-    
     override func viewWillDisappear(_ animated: Bool) {
         
         self.navigationController?.navigationBar.isHidden =  false
         
-        self.navigationController?.navigationBar.isHidden = false
-        
+        self.navigationController?.navigationBar.isHidden = true
         
     }
-    
-    
-    
-    
-    
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

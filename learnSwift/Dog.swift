@@ -27,6 +27,11 @@ class Dog: NSObject {
         
     }
     
+    deinit {
+        
+        print("调用wwwww")
+    }
+    
 }
 
 
